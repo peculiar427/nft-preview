@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;  
+}
+.container{
+    background-color: hsl(217, 54%, 11%);
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nft-box{
+    background-color:hsl(216, 50%, 16%);
+    width:280px;
+    height: 500px;
+    border-radius:20px ;
+}
+.img-box{
+    margin:5%;
+}
+.img{
+    width:100%;
+    border-radius: 10px;
+}
+.text{
+    margin:0px 0px 0px 20px;
+    font-family: "outfit",sans-serif;
+}
+.title{
+   color:hsl(0, 0%, 100%) ;
+   font-size: 18px;
+   font-weight: 600;
+}   
+.description{
+    color:hsl(215, 51%, 70%); 
+    margin-top: 20px;
+    font-size: 16px;
+}
+.money{
+   margin:20px 0px 10px 0px; 
+   font-weight: 700;
+}
+.eth{
+    color:hsl(178, 100%, 50%);
+    font-size: 14px;
+}
+.eth-img{
+width:3%;
+margin-right: 5px;
+}
+.time{
+    margin-left: 70px;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 600;
+}
+.time-img{
+    width:5%;
+}
+.horizontal{
+    color:hsl(215, 32%, 27%);
+    border-style: solid none none none;
+    margin-right: 20px;
+}
+.pic-des{
+    font-size: 14px;
+    color:hsl(215, 51%, 70%);
+    font-weight: 700;
+}
+.start{
+    position: relative;
+    bottom:10px;
+}
+.picture{
+    margin: 10px 10px 0px 0px;
+    border:2px solid white;
+    border-radius: 100%;
+    width:12%;
+}
+.jules{
+    color:hsl(0, 0%, 100%);
+    font-weight:400;
+}
